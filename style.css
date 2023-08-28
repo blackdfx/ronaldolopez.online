@@ -343,6 +343,57 @@ h4.fakebook {
     font-weight: bold;
 }
 
+.a1 {
+    background: #ddd;
+    padding: 20px;
+    margin: 20px 0 20px 0;
+}
+
+.a2 {
+    color: #ACACAC;
+    font-family: "Roboto", Sans-serif;
+    font-size: 31px;
+    font-weight: 600;
+    text-decoration: line-through;
+}
+
+.a3 {
+    color: #03B60B;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.a4 {
+    max-width: 350px;
+    margin-top: 80px;
+    opacity: 0.6;
+}
+
+.headline {
+    background: linear-gradient(150deg, #0072F5 16%, #01C0FF 100%);
+    font-size: 14px;
+    color: #FFF;
+}
+
+.button a {
+    background-color: #00C71B;
+    margin: 0 auto;
+    font-size: 18px;
+    padding: 20px 40px;
+    border-radius: 5px;
+    color: #ffffff;
+    text-decoration: none;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+	transform: scale(1);
+	animation: pulse 2s infinite;
+    font-weight: 500;
+}
+
+.button {
+    margin-top: 35px;
+}
+
 @media (max-width: 767px) {
     .location p {
         font-size: 16px;
@@ -394,6 +445,15 @@ h4.fakebook {
     }
     .barra p {
         font-size:15px;
+    }
+
+    .button a {
+        font-size: 15px;
+        padding: 20px 10px;
+    }
+
+    .a4 {
+        max-width: 150px;
     }
 }
 
@@ -449,4 +509,22 @@ h4.fakebook {
     border-left: 1px solid #E9EBEE;
     margin-left: 50px;
     padding-bottom: 0;
+}
+
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
 }
