@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #ffffff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.barra {
+    background-color: #3E69AD;
+    font-size: 14px;
+    color: #FFF;
+}
+
+.barra p {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.dr {
+    max-width: 150px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+}
+
+.cinza {
+    background: #F0F3F5;
+    max-width: 856px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.texto-imagem {
+    width: 75%;
+    text-align: left!important;
+}
+
+.topo-img {
+    max-width: 500px;
+}
+
+.dr-imagem {
+    width: 25%;
+}
+
+.logo {
+    max-width: 100%;
+}
+
+.aviator {
+    max-width: 12em;
+}
+
+.purple {
+    background: #6A169A;
+}
+
+.black {
+    background: #3E69AD;
+    margin-top: 50px;
+}
+
+.disclaimer, .disclaimer a  {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #ffffff; 
+}
+
+.mensagens {
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 black;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #000000;
+    letter-spacing: 0.5px;
+}
+
+h1 span, h3 span, .barra span {
+    color: #ff0000;
+}
+
+h4.online{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: sans-serif;
+}
+
+h4.online span {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#panda-57768f2d-4bfa-4c79-ba8d-b6c6963ca128 {
+    border-radius: 20px !important;
+    box-shadow: 0 0 60px #000;
+}
+
+.player-depoimentos {
+    width: 100%;
+    max-height: 420px;
+}
+
+.volume {
+    font-size: 16px;
+    color: #FFF;
+}
+
+.footer {
+    font-size: 12px;
+    color: #999;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.9);
+    }
+
+    70% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0.9);
+    }
+}
+
+@keyframes pisca {
+  70% {
+    box-shadow: 0 0 0 25px rgb(0,0,0,0);
+    
+  }
+    100% {
+    box-shadow: 0 0 0 0 rgb(0,0,0,0);
+  }
+}
+
+button {
+    font-size: 26px;
+    font-weight: 600;
+    text-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #00BF00;
+    border-radius: 10px;
+    box-shadow: 0px 0px 21px -6px #ffff;
+    padding: 20px 180px;
+    border: none;
+    transform: scale(1);
+    animation: pisca 1.5s infinite;
+}
+
+.btn-app {
+    background-color: #cf2828;
+    box-shadow: none;
+}
+
+.icon-grande {
+    font-size: 54px;
+    color: #ff0000;
+}
+
+.garantia, .depoimentos, .faq, .como-funciona {
+    color: #FFF;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.garantia h3, .depoimentos h3, .faq h3, .como-funciona h3 {
+    font-weight: 600;
+}
+
+.garantia img {
+    margin: 25px 0;
+}
+
+.depoimentos h3 {
+    font-size: 28px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.faq h4 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #fe74b6;
+    text-align: left;
+}
+
+.faq p {
+    text-align: left;
+}
+
+.esconder {
+    display: ;
+}
+
+.fb-comments {
+    border: 1px solid #e9ebee!important;
+    border-radius: 18px;
+    padding: 12px;
+    margin: auto;
+    position: relative;
+    color: #888;
+}
+
+.fb-comments {
+    background-color: #fff!important;
+    border: 1px solid #e9ebee!important;
+}
+
+.fb-comments {
+    font-family: Helvetica,sans-serif;
+}
+
+.fb-comments-header {
+    padding: 0;
+    border-bottom: 1px solid #e9ebee!important;
+}
+
+.fb-comments-header span {
+    color: #000;
+    font-weight: 700;
+    font-size: .9em;
+}
+
+.fb-comments-comment {
+    border: none!important;
+    padding: 0;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.fb-comments-comment-img {
+    vertical-align: top;
+    width: 48px;
+    padding-right: 5px;
+}
+
+.fb-comments-comment-img img {
+    max-width: 48px;
+    max-height: 48px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+.fb-comments-comment-text {
+    font-weight: 400;
+    font-size: .9em;
+    color: #050505;
+    border-radius: 21px;
+    background-color: #f0f2f5!important;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 8px;
+}
+
+.fb-comments-comment-name {
+    font-size: .9em;
+}
+
+.fb-comments-comment-name name {
+    color: #365899;
+    text-decoration: none!important;
+    font-weight: 700;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.fb-comments-comment-actions {
+    padding: 0 2px!important;
+}
+
+.fb-comments-comment-actions like, .fb-comments-comment-actions reply {
+    font-size: .75em;
+    color: #888;
+    font-weight: 600;
+    text-decoration: none!important;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.fb-comments-comment-actions like, .fb-comments-comment-actions reply {
+    font-size: .75em;
+    color: #888;
+    font-weight: 600;
+    text-decoration: none!important;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.fb-comments-comment-actions likes {
+    font-size: 13px;
+    background: url(images/likes.png);
+    background-repeat: no-repeat;
+    padding-left: 43px;
+    padding-right: 6px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    margin-top: -10px;
+    float: right;
+    background-color: #fff!important;
+    border: solid #eaebef;
+    border-radius: 19px;
+}
+
+.fb-comments-comment-actions date {
+    font-size: .75em;
+    color: #90949c;
+    text-decoration: none;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.fb-comments-reply-wrapper {
+    margin-left: 60px;
+    border-left: 1px dotted #e9ebee!important;
+    padding-left: 5px;
+}
+
+h4.fakebook {
+    font-size: 1.25vw;
+    font-weight: bold;
+}
+
+@media (max-width: 767px) {
+    .location p {
+        font-size: 16px;
+    }
+    .logo {
+        max-width: 280px;
+    }
+
+    .topo-img {
+        max-width: 300px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    .dr-imagem {
+        width: 40%;
+        align-self: center;
+    }
+
+    .dr {
+        max-width: 115px;
+    }
+
+    .texto-imagem {
+        width: 60%;
+        font-size: 13px;
+    }
+
+    .cinza {
+        width: 95%;
+        margin: 0 auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    
+    h1 {
+        font-size: 28px !important;
+    }
+
+    .garantia {
+        text-align: center;
+    }
+
+    .garantia img {
+        width: 240px;
+        margin: 0;
+    }
+    .barra p {
+        font-size:15px;
+    }
+}
+
+#comentarios_face {
+    font-family: Arial;
+    background-color: #F6F7F9;
+    font-size: 14px;
+    padding: 20px;
+}
+
+.titulo_comentario {
+    font-weight: bold;
+    border-bottom: 1px solid #E9EBEE;
+    display: block;
+    padding-bottom: 6px;
+}
+
+.perfil {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+}
+
+.perfil .nome {
+    color: #365899;
+    font-weight: bold;
+}
+
+.nome img {
+    float: left;
+    padding-right: 10px;
+}
+
+.perfil img {
+    width: 60px !important;
+    height: 50px;
+}
+
+.perfil p {
+    margin: 0;
+    margin-left: 60px;
+    margin-bottom: 0px;
+}
+
+.infos {
+    font-size: 11px;
+    color: #90949c;
+}
+
+.perfil2 {
+    padding-left: 9px;
+    border-left: 1px solid #E9EBEE;
+    margin-left: 50px;
+    padding-bottom: 0;
+}
