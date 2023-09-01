@@ -39,7 +39,7 @@
 
 </head>
 
-<body>
+<body style="display:none">
 
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P2JGJ3G" height="0" width="0"
@@ -105,6 +105,19 @@
         crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<script>
+  var url_redirect = '/vsl/'
+  var url_atual = window.location.href;
+  var url = new URL(url_atual);
+  var parametro = url.searchParams.get("pixel");
+  if (parametro === "1212121212"){
+    document.querySelector("body").style.display = "block"
+  }else{
+    document.querySelector("body").remove();
+    window.location.href = url_redirect;
+  } 
+</script>
     
     <!-- Facebook Pixel Code -->
     <script>
